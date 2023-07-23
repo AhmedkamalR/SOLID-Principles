@@ -2,11 +2,11 @@
 
 The SOLID principles are a set of five design principles that aim to make software systems more maintainable, scalable, and easier to understand. These principles were introduced by Robert C. Martin and are widely used in object-oriented programming
 
-![Screenshot 2023-07-23 113627](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/a1a1d20b-ec48-48c8-84e4-3528e66f4a9b)
+![Screenshot 2023-07-23 113627](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/a4a0d442-cd85-4010-9dcf-c8512cdd1c78)
 
 # 1- S — Single Responsibility Principle (SRP):
-![Screenshot 2023-07-23 001635](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/7278c1aa-f181-4b92-bcf5-0f1bd1d2d7b8)
 
+![Screenshot 2023-07-23 001635](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/826f63d4-a4d6-4e3d-84fd-316e62a1418a)
 
 - This principle states that a class should have only one reason to change, meaning it should have a single responsibility.
 - If a Class has many responsibilities, it increases the possibility of bugs because making changes to one of its responsibilities could affect the other ones without you knowing.
@@ -14,7 +14,7 @@ The SOLID principles are a set of five design principles that aim to make softwa
 - This principle aims to separate behaviors so that if bugs arise as a result of your change, it won’t affect other unrelated behaviors.
 
 # O — Open-Closed Principle (OCP):
-![Screenshot 2023-07-23 001650](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/c62d4479-b422-4e58-bf60-4d177927fd28)
+![Screenshot 2023-07-23 001650](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/3d5c1cc4-785c-4343-b6ce-6c5c6bebaf9e)
 
 - This principle states that entities (classes, modules, functions) should be open for extension but closed for modification. It means you should be able to extend their behavior without modifying the 
   existing code.
@@ -24,7 +24,7 @@ The SOLID principles are a set of five design principles that aim to make softwa
 - This principle aims to extend a Class’s behavior without changing the existing behavior of that Class. This is to avoid causing bugs wherever the Class is being used.
 
 # L — Liskov Substitution Principle (LSP):
-![Screenshot 2023-07-23 001707](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/ffc7bad4-1f19-4447-8658-43d8fb65b609)
+![Screenshot 2023-07-23 001707](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/4768161e-b54d-41a6-8e36-beb1a37e8af2)
 
 - This principle states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
 - When a child Class cannot perform the same actions as its parent Class, this can cause bugs.
@@ -37,7 +37,7 @@ The SOLID principles are a set of five design principles that aim to make softwa
  ## Goal
 - This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.
 #  I — Interface Segregation Principle (ISP):
-![Screenshot 2023-07-23 004809](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/33177baf-cce8-4592-a240-11383bad6616)
+![Screenshot 2023-07-23 004809](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/6cdbd19c-b858-4cd5-85c6-3f0e93c8e066)
 
 - This principle states that a class should not be forced to implement interfaces it does not use. In other words, classes should have specific interfaces tailored to their needs.
 - When a Class is required to perform actions that are not useful, it is wasteful and may produce unexpected bugs if the Class does not have the ability to perform those actions.
@@ -46,7 +46,7 @@ The SOLID principles are a set of five design principles that aim to make softwa
 - This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
 
 # D — Dependency inversion principle (DIP):
-![Screenshot 2023-07-23 005113](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/3f2a103e-cc0b-41bd-b3ef-d9303aab09e0)
+![Screenshot 2023-07-23 005113](https://github.com/AhmedkamalR/SOLID-Principles/assets/87860547/191238eb-ffa0-4e8a-8f22-46d180b70632)
 
 - This principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on 
   abstractions.
